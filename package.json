@@ -1,0 +1,38 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@invictus.codes/nuxt-vuetify": "^0.3.0",
+    "@nuxt/devtools": "latest",
+    "@nuxt/image": "^1.0.0",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@types/node": "^20.8.7",
+    "@types/uuid": "^9.0.6",
+    "nuxt": "^3.8.0",
+    "vuetify-nuxt-module": "^0.5.15"
+  },
+  "overrides": {
+    "vue": "latest"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.3.67",
+    "@pinia/nuxt": "^0.5.1",
+    "@unocss/nuxt": "^0.56.5",
+    "@vuelidate/core": "^2.0.3",
+    "@vuelidate/validators": "^2.0.4",
+    "@vueuse/core": "^10.5.0",
+    "firebase": "^10.5.0",
+    "nanoid": "^5.0.2",
+    "pinia": "^2.1.7",
+    "uuid": "^9.0.1",
+    "vue-contenteditable": "^4.1.0",
+    "vue-material-design-icons": "^5.2.0"
+  }
+}
